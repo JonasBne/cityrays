@@ -55,6 +55,19 @@ Install all mentioned tools, libs,... in the list below to setup your environmen
 ruby --version
 ```
 
+Once the setup is complete you can run the following commands:
+
+```bash
+# runs the metro bundler
+# alternatively use npm run start
+npx react-native start 
+
+npx react-native run-ios
+```
+
+You can also run the app in Xcode. Make sure the metro bundler is running and then open the `xcworkspace` in the `ios-folder`.
+
+
 ### Android
 
 ## Useful links
